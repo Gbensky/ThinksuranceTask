@@ -42,7 +42,6 @@ class RiskAnalysisCest
         $I->seeElement(RiskAnalysisPage::$productLinkButton);
         $nextUrl = $I->grabAttributeFrom(RiskAnalysisPage::$productLinkButton, 'href');
         Fixtures::add('riskAssessmentUrl', $nextUrl);
-        //$I->click('div[data-product-tag="vermoegen"] .col-xs-12 .product-link .btn');
 
     }
 }
