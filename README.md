@@ -32,9 +32,11 @@ Run the following command in your terminal
  
 `cd clone_project_path`
 
-`java -jar selenium-server-standalone-3.141.59.jar -Dwebdriver.chrome.driver=./chromedriver` 
+`java -Dwebdriver.chrome.driver=./chromedriver -jar selenium-server-standalone-3.141.59.jar` 
 
-Open a new command line window and run the command below
+Open a new command line window and run the commands below
+
+`cd clone_project_path`
 
 `php vendor/bin/codecept run --steps`
 
