@@ -34,7 +34,7 @@ class HomePageCest
         $I->waitForText(HomePage::$LandingViewText);
         $I->see(HomePage::$LandingViewText);
         $I->fillField(HomePage::$cmsModuleProfessionField, "");
-        $I->seeElement('#compare_btn.disabled');
+        $I->seeElement(HomePage::$compareButtonDisabled);
     }
 
     public function shouldBeAbleToEnterTrade(AcceptanceTester $I)

@@ -8,6 +8,7 @@ class HomePage
 
     public static $cmsModuleProfessionField = '#cms_module_profession';
     public static $compareButton= '#compare_btn';
+    public static $compareButtonDisabled= '#compare_btn.disabled';
     public static $firstProfession = 'div[data-index="0"]';
 
 }
